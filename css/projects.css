@@ -1,0 +1,104 @@
+* {
+    color: white;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+}
+
+table {
+    width: 80%;
+    margin: 60px auto 0 auto;
+    text-align : center;
+}
+
+.project_title {
+    line-height: 0;
+    margin-right: 10px;
+}
+
+.title_logo {
+    width: 40px;
+    margin: 0 0 0 10px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.github {
+    filter: invert(63%) sepia(0%) saturate(20%) hue-rotate(150deg) brightness(60%) contrast(90%);
+    width: 35px;
+}
+.github:hover {
+    filter: invert(63%) sepia(0%) saturate(20%) hue-rotate(150deg) brightness(98%) contrast(90%);
+}
+
+td {
+    width: 40%;
+    padding: 20px;
+}
+
+.description {
+    text-align: left;
+    vertical-align: top;
+}
+
+td img {
+    width : 100%;
+    text-align : center;
+    
+}
+
+hr {
+    border: 0.2px solid lightgray;
+    padding: 0px;
+    margin: 0px; 
+}
+
+a.button {
+    margin: 8px 20px 20px 20px;
+    background-color: rgb(43, 41, 41);
+    border: 2px solid lightgray;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 40%;
+    will-change: transform;
+    box-shadow: rgba(0, 0, 0, 0.25) 8px 10px 15px;
+
+}
+
+div.button_div {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+a.button:hover {
+    color: rgba(31, 30, 30, 1);
+    background-color: white;
+    transform: translateY(-2px);
+}
+
+a.button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(31, 30, 30, 1);
+    font-family: 'Menlo', sans-serif;
+    display: inline;
+}
