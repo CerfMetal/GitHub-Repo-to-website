@@ -60,7 +60,7 @@ function showCommits() {
                 case "c": logo_url = "c_logo.svg"; break;
                 case "html": logo_url = "html_logo.svg"; break;
                 case "css": logo_url = "css_logo.svg"; break;
-                case "javascript": logo_url = "javascript_logo.svg"; break;
+                case "javascript": logo_url = "javascript_logo.png"; break;
                 case "java": logo_url = "java_logo.svg"; break;
                 case "php": logo_url = "php_logo.svg"; break;
             }
