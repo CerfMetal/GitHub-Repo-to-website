@@ -1,4 +1,4 @@
-# Github-Repo-
+# GitHub Repo to website
 Set up your projects webpage by gathering all your public GitHub repositories.
 
 <p align="center"><a class="live_demo" href="https://cerfmetal.com/projects">Live demo</a></p>
