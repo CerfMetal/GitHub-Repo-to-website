@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/projects.css">
+
+        <script src="js/git.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="module">
+            import { Octokit, App } from "https://cdn.skypack.dev/octokit";
+            </script>
+
+        <title>GitHub Repo to website</title>
+    </head>
+    <body>
+        <div id="content">
+            <h1 class="title">Projects</h1>
+            <table id="table"></table>
+            
+        </div>
+
+        <script>
+            // Run when the page is loaded
+            $(document).ready(function() {
+                getLatestCommit();
+            });
+        </script>
+        
+    </body>
+  
+</html>
